@@ -22,6 +22,7 @@ export default function RootLayout({
         suppressHydrationWarning
         className={`${inter.className} antialiased`}
       >
+        <div className="bg-[url('/bg.jpg')] fixed -z-10 inset-0 opacity-50" />
         <Providers>
           <Container>{children}</Container>
         </Providers>
